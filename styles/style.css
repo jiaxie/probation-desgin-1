@@ -1,0 +1,136 @@
+li {
+  list-style: none;
+}
+html {
+  background: url(../images/bg.png);
+}
+body {
+  font-family: Nunito, sans-serif;
+  width: 960px;
+  margin: 0 auto;
+}
+/*header*/
+header {
+  overflow: hidden;
+}
+header .logo {
+  display: block;
+  margin: 40px 0;
+}
+.menu-tabs {
+  overflow: hidden;
+  padding-top:0;
+}
+.menu-tabs li{
+    display: inline;
+}
+.menu-tabs li a {
+  float: left;
+  text-align: center;
+  display: block;
+  width: 190px;
+  border-right: 0;
+  line-height: 50px;
+  text-decoration: none;
+  border-bottom: 3px solid #999;
+  border-bottom-right-radius: 0
+}
+.menu-tabs li a:hover {
+  text-decoration: underline;
+  color:#0aaf86;
+  font-weight: bold;
+}
+.menu-tabs .selected a{
+  float: left;
+  text-align: center;
+  display: block;
+  width: 190px;
+  border-right: 0;
+  line-height: 50px;
+  text-decoration: none;
+  border: 3px solid #999;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom: 0;
+  border-radius: 5px;
+  color: #333;
+}
+/*content*/
+.content {
+  position: relative;
+  z-index: 1000;
+}
+hr {
+  border-color: #EEE;
+  border-style: solid;
+  border-width: 0;
+  clear: both;
+  margin: 0 0 7px;
+  height: 8px;
+  background-color: #EEE;
+  background-image: url(../images/diagonal_lines_bg.gif);
+}
+section.newhire-in-project {
+  overflow: hidden;
+}
+section.newhire-in-project h3 {
+  font-size: 20px;
+  padding: 40px 0 20px 0;
+  margin: 15px 0;
+  border-bottom: 3px dotted #CCC;
+  color: #999;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.05);
+}
+section.newhire-in-project ul {
+  overflow: hidden;
+  margin: 0 10px;
+}
+section.newhire-in-project ul li {
+  width: 18%;
+  float: left;
+  margin: 1%;
+  background-color: #e4e6e8;
+  color: #dba8ba;
+  /*text-shadow: 2px 2px 0 rgba(0,0,0,0.25);*/
+  /*border-radius: 5px;*/
+}
+/*section.newhire-in-project ul li:nth-last-child(odd) {
+  background-color: #e4edd1;
+  color: #cedbb1;
+}*/
+section.newhire-in-project ul li span {
+  display: block;
+  text-align: center;
+}
+section.newhire-in-project .name {
+  font-size: 22px;
+  padding: 20px 5px;
+  background-color: white;
+}
+section.newhire-in-project .role {
+  font-size: 12px;
+  padding:10px 0;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
