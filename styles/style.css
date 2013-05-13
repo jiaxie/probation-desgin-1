@@ -24,6 +24,7 @@
   margin-right: 10px;
 }
 .newhire-in-project .tile {
+  display: block;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -47,5 +48,46 @@
 .project, .number {
   vertical-align: middle;
   margin: 0;
+}
+.edit-panel {
+  /*display: none;*/
+}
+.demo-tiles .span3 {
+  position: relative;
+}
+.edit-panel {
+  position: absolute;
+  top: 4px;
+  right: 7px; 
+}
+.hidden {
+  display: none;
+}
+.edit-panel:hover {
+  display: block;
+}
+.edit-panel span{
+  padding-left: 5px;
+}
+/*detail page*/
+.people-info {
+  margin-top: 50px;
+  display: inline-block;
+}
+.people-info .ui-slider {
+  width: 170px;
+}
+.thumbnail {
+  width: 90px;
+  margin: 0 auto
+}
+.name {
+  font-size: 35px;
+  display: block;
+  text-align: center;
+  line-height: 70px;
+}
+.navbar-inverse {
+  float: right;
 }
 
